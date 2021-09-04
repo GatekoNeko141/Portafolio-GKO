@@ -10,8 +10,9 @@
         </div>
         </b-sidebar>
         
-        <div class="sideBarMain p-2 bg-dark">
+        <div class="sideBarMain py-4">
             <b-img class="my-3" src="https://picsum.photos/300/300/?image=41" fluid center thumbnail rounded="circle" alt="Foto de Perfil"></b-img>
+            <!-- <b-button v-b-toggle.sidebar-variant>Toggle Sidebar</b-button> Boton de menu bar lateral-->
         </div>
     </div>
 </template>
