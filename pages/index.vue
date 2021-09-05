@@ -2,6 +2,48 @@
     <div>
         <h1>Gateko!!</h1>
         <br>
+        <h1>Gateko!!</h1>
+        <br>
+        <h1>Gateko!!</h1>
+        <br>
+        <h1>Gateko!!</h1>
+        <br>
+        <h1>Gateko!!</h1>
+        <br>
+        <h1>Gateko!!</h1>
+        <br>
+        <h1>Gateko!!</h1>
+        <br>
+        <h1>Gateko!!</h1>
+        <br>
+        <h1>Gateko!!</h1>
+        <br>
+        <h1>Gateko!!</h1>
+        <br>
+        <h1>Gateko!!</h1>
+        <br>
+        <h1>Gateko!!</h1>
+        <br>
+        <h1>Gateko!!</h1>
+        <br>
+        <h1>Gateko!!</h1>
+        <br>
+        <h1>Gateko!!</h1>
+        <br>
+        <h1>Gateko!!</h1>
+        <br>
+        <h1>Gateko!!</h1>
+        <br>
+        <h1>Gateko!!</h1>
+        <br>
+        <h1>Gateko!!</h1>
+        <br>
+        <h1>Gateko!!</h1>
+        <br>
+        <h1>Gateko!!</h1>
+        <br>
+        <h1>Gateko!!</h1>
+        <br>
         
     </div>
 </template>
