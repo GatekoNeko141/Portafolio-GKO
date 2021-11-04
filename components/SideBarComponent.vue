@@ -1,19 +1,22 @@
 <template>
     <div>
-        <b-sidebar id="sidebar-variant" title="Sidebar" bg-variant="dark" text-variant="light" shadow>
-            <div class="px-3 py-2">
-                <p>
-                Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis
-                in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-                </p>
-                <b-img src="https://picsum.photos/400/400/?image=54" fluid thumbnail></b-img>
-            </div>
-        </b-sidebar>
-        
-        <div class="sideBarMain pt-5 px-4">
+        <div class="sideBarMain pt-5 px-1">
             <b-img class="mt-3 mb-4" src="https://picsum.photos/200/200/?image=41" fluid center thumbnail rounded="circle" alt="Foto de Perfil"></b-img>
             <h4 style="text-align: center; font-family: 'Roboto Mono';">{{ nombre }}</h4>
             <h5 style="text-align: center; font-family: 'Roboto Mono';">{{ apellido }}</h5>
+
+            <div class="social">
+                <a href="https://github.com/GatekoNeko141" target="_blank" style="cursor: pointer; color: white;">
+                    <b-icon icon="github" v-b-tooltip.hover.bottom="'GitHub'"></b-icon>
+                </a>
+                <a href="https://www.linkedin.com/in/gko-rodriguez/" target="_blank" style="cursor: pointer; color: white;">
+                    <b-icon icon="linkedin" v-b-tooltip.hover.bottom="'LinkedIn'"></b-icon>
+                </a>
+                <a href="mailto:jhon1995jera@gmail.com" target="_blank" style="cursor: pointer; color: white;">
+                    <b-icon icon="envelope-fill" v-b-tooltip.hover.bottom="'Enviar Correo'"></b-icon>
+                </a>
+            </div>
+
             <b-row class="OptionsMenu mt-5">
                 <b-col v-for="navOption in navOptions" v-bind:key="navOption.id" cols="12">
                     <div class="Option">
@@ -22,20 +25,29 @@
                     </div>
                 </b-col>
             </b-row>
-            <!-- <b-button v-b-toggle.sidebar-variant>Toggle Sidebar</b-button> Boton de menu bar lateral-->
+            
         </div>
     </div>
 </template>
 
 <script>
 
-import { BIcon, BIconHouseFill, BIconPersonFill, BIconLightning, BIconInboxes, BIconGithub, BIconLinkedin } from 'bootstrap-vue'
+import {
+    BIcon,
+    BIconHouseFill,
+    BIconPersonFill,
+    BIconLightning,
+    BIconInboxes,
+    BIconGithub,
+    BIconLinkedin,
+    BIconEnvelopeFill
+} from 'bootstrap-vue'
 
 
 export default {
     data(){
         return {
-            nombre: "Jhon Eymar",
+            nombre: "John Eymar",
             apellido: "Rodríguez Arteaga",
             navOptions: [
                 {
@@ -62,7 +74,10 @@ export default {
         BIconHouseFill,
         BIconPersonFill,
         BIconLightning,
-        BIconInboxes
+        BIconInboxes,
+        BIconGithub,
+        BIconLinkedin,
+        BIconEnvelopeFill
     },
 }
 </script>
@@ -91,6 +106,12 @@ export default {
     border-radius: 0px 2px 2px 0px;
     color: white;
     border-left: 3px solid transparent;
+}
+.social{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 10px;
 }
 
 </style>
