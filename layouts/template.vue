@@ -70,7 +70,7 @@ export default {
             apellido: "Rodríguez Arteaga",
             navOptions: [
                 {
-                    title: "Inicio",
+                    title: "Bienvenidos",
                     icon: "house-fill"
                 },
                 {
@@ -78,7 +78,7 @@ export default {
                     icon: "person-fill"
                 },
                 {
-                    title: "Habilidades",
+                    title: "Portafolio",
                     icon: "lightning"
                 },
                 {
