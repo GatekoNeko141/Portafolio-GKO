@@ -4,7 +4,7 @@
             <inicio />
         </b-container>
 
-        <b-container class="cont">
+        <b-container class="cont align-c-c">
             <about />
         </b-container>
     </div>
