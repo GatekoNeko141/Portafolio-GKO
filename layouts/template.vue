@@ -9,7 +9,7 @@
         </b-navbar>
 
         <b-row>
-            <b-col class="contentPortfolio" align-self="end">
+            <b-col class="contentPortfolio px-0" align-self="end">
                 
                 <b-sidebar id="sidebar-variant" bg-variant="transparent" text-variant="light" shadow width="100%" header-class="sidebar-variant" body-class="sidebar-variant">
                     <b-img class="mt-3 mb-4" src="https://picsum.photos/200/200/?image=41" fluid center thumbnail rounded="circle" alt="Foto de Perfil"></b-img>

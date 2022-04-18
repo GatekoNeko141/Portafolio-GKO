@@ -1,7 +1,10 @@
 :root{
   --white: #fff;
+  --color-02: #01043a;
+  --color-03: #4c7678;
 }
 .maq{border: 1px red solid !important;}
+.mak{border-bottom: 1px red solid !important;}
 
 .fw-100 {font-weight: 100;}
 .fw-200 {font-weight: 200;}
@@ -35,6 +38,11 @@
 .fz-28 {font-size: 28px;}
 .fz-29 {font-size: 29px;}
 .fz-30 {font-size: 30px;}
+
+.w-100{width: 100%;}
+.hvh-100{min-height: 100vh; height: auto;}
+.ph-100{min-height: 100%; height: auto;}
+.center{text-align: center;}
 
 .align-l-t {/*IZQUIERDA ->  ARRIBA*/
   justify-content: flex-start;
@@ -81,6 +89,8 @@
   align-items: flex-end;
   display: flex;
 }
+
+hr{border-bottom: 1px white solid;}
 
 @media (min-width: 576px) and (max-width: 768px){
   /**/
