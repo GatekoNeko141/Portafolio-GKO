@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <b-container class="w-100">
         <h1>&lt;John Dev/&gt;</h1>
         <div class=fakeMenu>
             <div class="fakeButtons fakeClose"></div>
@@ -9,10 +9,10 @@
         <div class="fakeTerminal">
             <h2 class="line1">¡Saludos! Bienvenido a mi portafolio web<span class="cursor1">_</span></h2>
             <h2 class="line2">Soy <strong>John Eymar Rodríguez Arteaga</strong><span class="cursor2">_</span></h2>
-            <h2 class="line3">Programador UI/UX.<span class="cursor3">_</span></h2>
+            <h2 class="line3">Programador FrontEnd.<span class="cursor3">_</span></h2>
             <h2 class="line4">$<span class="cursor4">_</span></h2>
         </div>
-    </div>
+    </b-container>
 </template>
 
 <style scoped>
