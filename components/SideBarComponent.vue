@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="sideBarMain pt-5 px-1">
-            <b-img class="mt-3 mb-4" src="https://picsum.photos/200/200/?image=41" fluid center thumbnail rounded="circle" alt="Foto de Perfil"></b-img>
+            <b-img class="imgCustom mb-4" src="https://picsum.photos/200/200/?image=41" fluid center thumbnail rounded="circle" alt="Foto de Perfil"></b-img>
             <h4 style="text-align: center; font-family: 'Roboto Mono';">{{ nombre }}</h4>
             <h5 style="text-align: center; font-family: 'Roboto Mono';">{{ apellido }}</h5>
 
@@ -113,5 +113,7 @@ export default {
     font-size: 25px;
     letter-spacing: 10px;
 }
-
+.imgCustom{
+    width: 150px;
+}
 </style>

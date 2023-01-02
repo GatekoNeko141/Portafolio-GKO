@@ -111,6 +111,7 @@ body {
     display: block;
     width: 300px;
     background-color: rgba(1, 7, 83, 0.6);
+    backdrop-filter: blur(3px);
     position: fixed;
     height: 100%;
     box-shadow: 0px 1px 4px 0px white;

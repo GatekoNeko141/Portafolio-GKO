@@ -1,16 +1,18 @@
 <template>
     <b-container class="w-100">
         <h1>&lt;John Dev/&gt;</h1>
-        <div class=fakeMenu>
-            <div class="fakeButtons fakeClose"></div>
-            <div class="fakeButtons fakeMinimize"></div>
-            <div class="fakeButtons fakeZoom"></div>
-        </div>
-        <div class="fakeTerminal">
-            <h2 class="line1">¡Saludos! Bienvenido a mi portafolio web<span class="cursor1">_</span></h2>
-            <h2 class="line2">Soy <strong>John Eymar Rodríguez Arteaga</strong><span class="cursor2">_</span></h2>
-            <h2 class="line3">Programador FrontEnd.<span class="cursor3">_</span></h2>
-            <h2 class="line4">$<span class="cursor4">_</span></h2>
+        <div class="pr-3">
+            <div class=fakeMenu>
+                <div class="fakeButtons fakeClose"></div>
+                <div class="fakeButtons fakeMinimize"></div>
+                <div class="fakeButtons fakeZoom"></div>
+            </div>
+            <div class="fakeTerminal">
+                <h2 class="line1">¡Saludos! Bienvenido a mi portafolio web<span class="cursor1">_</span></h2>
+                <h2 class="line2">Soy <strong>John Eymar Rodríguez Arteaga</strong><span class="cursor2">_</span></h2>
+                <h2 class="line3">Programador FrontEnd.<span class="cursor3">_</span></h2>
+                <h2 class="line4">$<span class="cursor4">_</span></h2>
+            </div>
         </div>
     </b-container>
 </template>
@@ -81,10 +83,10 @@
 .fakeTerminal{
     padding: 2em 0 3em 3em;
     text-shadow: 0px 1px 5px #000015;
-    background-color: #151515;
+    background-color: rgb(21 21 21 / 85%);
     box-sizing: border-box;
     border-radius: 0px 0px 5px 5px;
-    opacity: 0.95;
+    backdrop-filter: blur(5px);
 }
 .fakeTerminal h2{
     position: relative;
