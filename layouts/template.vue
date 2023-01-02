@@ -1,5 +1,6 @@
 <template>
     <div style="overflow-x: hidden;">
+        <SnowDrop v-if="itsSnowing" />
         <ParallaxBG1 />
         <b-navbar toggleable type="dark" variant="transparent" class="navbar">
             <b-navbar-brand href="#">&lt;John Dev/&gt;</b-navbar-brand>
@@ -85,7 +86,20 @@ export default {
                     title: "Contacto",
                     icon: "inboxes"
                 }
-            ]
+            ],
+            itsSnowing: false
+        }
+    },
+    created() {
+        let dateNow = new Date()
+        if(dateNow.getMonth() == 11){
+            this.itsSnowing = true
+        }else{
+            if(dateNow.getMonth() == 0){
+                if(dateNow.getDay() <= 8){
+                    this.itsSnowing = true
+                }
+            }
         }
     },
     components: {
