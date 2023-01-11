@@ -96,7 +96,7 @@ export default {
             this.itsSnowing = true
         }else{
             if(dateNow.getMonth() == 0){
-                if(dateNow.getDay() <= 8){
+                if(dateNow.getDate() <= 8){
                     this.itsSnowing = true
                 }
             }
